@@ -12,7 +12,7 @@ Route es un componente que se utiliza para definir una ruta específica dentro d
 
 export const AppRouter = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/diplomado-react-proyecto">
       <Routes>
         <Route element={<PublicRoute />}>
           <Route path="/" element={<Navigate to="/login" />} />
